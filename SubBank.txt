@@ -1,0 +1,5 @@
+1,Kanchanaburi,Kanchanaburi City
+2,Ratchaburi,Ratchaburi City
+3,Bangkok,Bangkok
+4,Prachuap Khiri Khan,Prachuap Khiri Khan City
+5,Tak,Tak City
