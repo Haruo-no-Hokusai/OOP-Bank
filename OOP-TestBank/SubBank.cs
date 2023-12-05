@@ -1,7 +1,7 @@
 ﻿
 namespace OOP_Bank
 {
-    public class SubBank : Debtor
+    public class SubBank : Bank
     {
         public int Id {  get; set; }
         public string Location { get; set; }

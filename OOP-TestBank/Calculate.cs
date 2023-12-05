@@ -3,7 +3,7 @@ using OOP_Bank;
 
 namespace OOP_TestBank
 {
-    internal class Calculate : Bank
+    internal class Calculate : Debtor
     {
         public List<Debtor> debtor { get; set; }
         public List<SubBank> subBank { get; set; }
@@ -89,7 +89,7 @@ namespace OOP_TestBank
         }
         public double CalculateProfit()
         {
-            double Profit =(debtor.Sum(p => p.Pay)+debtor.Sum(p => p.Interest))-subBank.Sum(p => p.Bbf);
+            double Profit =(debtor.Sum(p => p.Pay)+debtor.Sum(p => p.Interest))-debtor.Sum(p => p.Bbf);
             return Profit;
         }
         public List<Debtor> GroupDebtor() 
